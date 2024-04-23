@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-detail {
+    width: 85%;
+    padding: 0 !important;
+    margin: 20px auto;
+    border: 2px solid #d5d6d8;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.card-detail-header {
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-detail-header button {
+    background-color: rgb(196, 50, 50);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.card-detail-header span {
+    margin: 0 10px;
+}
+
+.card-detail-header h2 {
+    font-weight: 400;
+}
+
+.cart-empty {
+    text-align: center;
+    padding: 30px;
+}
+
+.cart-empty i {
+    font-size: 45px;
+    color: #d5d6d8;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.cart-empty p {
+    margin-bottom: 0;
+    color: #bdbdbd;
+    font-size: 16px;
+}
+
+.cart-table td,
+.cart-table th {
+    vertical-align: middle;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.cart-table {
+    text-align: center;
+    margin: 0 !important;
+}
+.cart-img{
+    vertical-align: middle;
+}
+.cart-img img{
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+.table-btn{
+    background-color: rgb(196, 50, 50);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.qty button{
+    margin: 0 5px;
+    background-color: rgb(116, 116, 239);
+    border: none;
+    color: white;
+    padding: 5px;
+}

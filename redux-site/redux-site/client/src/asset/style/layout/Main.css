@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-sec-div{
+    padding: 20px 100px;
+}
+.main-sec-div h1{
+    font-size: 50px;
+    color: rgb(44, 43, 43);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.card-sec{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
